@@ -11,7 +11,7 @@ This project is a Python-based web scraper that extracts information about compa
 ## Setup
 
 1. Clone this repository:   ```
-   git clone https://github.com/your-username/linkedin-company-scraper.git
+   git clone https://github.com/waqaarahmed/linkedin_company_scrapper.git
    cd linkedin-company-scraper   ```
 
 2. Create a virtual environment (optional but recommended):   ```
@@ -33,7 +33,7 @@ To run the scraper:
 1. Make sure you're in the project directory and your virtual environment is activated (if you're using one).
 
 2. Run the script:   ```
-   python linkedin_api.py   ```
+   python linkedin.py   ```
 
 3. The script will log in to LinkedIn, navigate to the specified profile's interests page, and scrape information about followed companies.
 
@@ -51,6 +51,4 @@ To run the scraper:
 - Make sure your LinkedIn credentials in `config.py` are correct.
 - If the script fails to find elements, try running it without the headless mode (comment out the headless option in the `setup_driver` method).
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
